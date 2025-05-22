@@ -61,6 +61,7 @@ grid-auto-flow: column;
 
 main{
   margin-top: 40px;
+  gap: 80px;
 }
 
 .content-tag {
