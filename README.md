@@ -5,6 +5,9 @@
 
 ---
 
+![image](https://github.com/user-attachments/assets/578c25a0-8ebe-4400-ad50-4089aec35334)
+
+
 ## 💡 Sobre o projeto
 
 Este é um projeto de front-end criado para treinar as habilidades em **HTML** e **CSS**, com foco especial em:
