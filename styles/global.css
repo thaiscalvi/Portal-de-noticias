@@ -83,3 +83,152 @@ main{
   color: var(--text-color-primary);
   box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
+
+/*responsividade*/
+
+@media (max-width: 768px) {
+  .title-page {
+    text-align: center;
+  }
+
+  .cover {
+    align-items: center;
+  }
+
+  .section-header {
+    text-align: center;
+  }
+
+  .container {
+    padding: 16px;
+    max-width: 100%;
+  }
+
+    #secondary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    padding: 0 16px;
+    margin-top: 16px;
+  }
+
+  #secondary a {
+    font-size: 14px;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+
+   #featured {
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+  }
+
+  #featured .grid-cols-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #featured .card {
+    width: 100%;
+  }
+
+  #featured img {
+    width: 100%;
+    height: auto;
+  }
+
+  #featured h2 {
+    font-size: 16px;
+  }
+
+  #featured .content-tag {
+    font-size: 12px;
+  }
+
+  #weekly .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #weekly figure {
+    width: 100%;
+  }
+
+  #weekly img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  #weekly p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  #weekly .content-tag {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  #weekly header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  #weekly a {
+    font-size: 14px;
+  }
+
+  main.grid.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #ai,
+  #ads,
+  #more {
+    width: 100%;
+  }
+
+  #ai article,
+  #more article {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #ai img,
+  #ads img,
+  #more img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  #ai header,
+  #more header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  #more header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+  
+}
