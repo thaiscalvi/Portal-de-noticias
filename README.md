@@ -5,8 +5,6 @@
 
 ---
 
-![image](https://github.com/user-attachments/assets/578c25a0-8ebe-4400-ad50-4089aec35334)
-
 
 ## 💡 Sobre o projeto
 
